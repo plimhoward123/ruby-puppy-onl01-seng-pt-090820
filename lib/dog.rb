@@ -1,6 +1,6 @@
 class Dog
   @@all = []
-  
+
   def initialize(name)
     @name = name
     save
@@ -9,7 +9,7 @@ class Dog
   def name=(name)
     @name = name
   end
-  def name 
+  def name
     @name
   end
 
